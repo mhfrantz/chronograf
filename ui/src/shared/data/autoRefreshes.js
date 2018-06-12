@@ -1,6 +1,16 @@
 const autoRefreshItems = [
   {milliseconds: 0, inputValue: 'Paused', menuOption: 'Paused'},
   {
+    milliseconds: 100,
+    inputValue: '10 Hz',
+    menuOption: '10 Hz',
+  },
+  {
+    milliseconds: 1000,
+    inputValue: 'Every 1s',
+    menuOption: 'Every 1s',
+  },
+  {
     milliseconds: 5000,
     inputValue: 'Every 5s',
     menuOption: 'Every 5s',

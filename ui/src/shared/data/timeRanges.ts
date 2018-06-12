@@ -8,6 +8,22 @@ interface TimeRangeOption extends TimeRange {
 
 export const timeRanges: TimeRangeOption[] = [
   {
+    defaultGroupBy: '100ms',
+    seconds: 15,
+    inputValue: 'Past 15s',
+    lower: 'now() - 15s',
+    upper: null,
+    menuOption: 'Past 15s',
+  },
+  {
+    defaultGroupBy: '1s',
+    seconds: 60,
+    inputValue: 'Past 1m',
+    lower: 'now() - 1m',
+    upper: null,
+    menuOption: 'Past 1m',
+  },
+  {
     defaultGroupBy: '10s',
     seconds: 300,
     inputValue: 'Past 5m',
